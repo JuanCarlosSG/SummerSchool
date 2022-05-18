@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            MainView()
+                .environmentObject(SchoolViewModel())
+        }
+        .navigationViewStyle(.stack)
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

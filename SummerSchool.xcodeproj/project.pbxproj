@@ -11,6 +11,15 @@
 		652C7278283484F600812BA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652C7277283484F600812BA4 /* ContentView.swift */; };
 		652C727A283484FB00812BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652C7279283484FB00812BA4 /* Assets.xcassets */; };
 		652C727D283484FB00812BA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652C727C283484FB00812BA4 /* Preview Assets.xcassets */; };
+		652C7285283486A000812BA4 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652C7284283486A000812BA4 /* SchoolViewModel.swift */; };
+		65C41A532834BE4400AA888C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A522834BE4400AA888C /* MainView.swift */; };
+		65C41A552834BE6400AA888C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A542834BE6400AA888C /* RegisterView.swift */; };
+		65C41A582834BE8A00AA888C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A572834BE8A00AA888C /* CustomTextField.swift */; };
+		65C41A5A2834C63400AA888C /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A592834C63400AA888C /* GroupDetailView.swift */; };
+		65C41A5D2834C96A00AA888C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A5C2834C96A00AA888C /* Group.swift */; };
+		65C41A5F2834C97E00AA888C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A5E2834C97E00AA888C /* Student.swift */; };
+		65C41A612834C99200AA888C /* PostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A602834C99200AA888C /* PostResponse.swift */; };
+		65C41A632834C9AB00AA888C /* CompletionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C41A622834C9AB00AA888C /* CompletionResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		652C7277283484F600812BA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		652C7279283484FB00812BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652C727C283484FB00812BA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		652C7284283486A000812BA4 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		65C41A522834BE4400AA888C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		65C41A542834BE6400AA888C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		65C41A572834BE8A00AA888C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		65C41A592834C63400AA888C /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		65C41A5C2834C96A00AA888C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		65C41A5E2834C97E00AA888C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		65C41A602834C99200AA888C /* PostResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostResponse.swift; sourceTree = "<group>"; };
+		65C41A622834C9AB00AA888C /* CompletionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		652C7274283484F600812BA4 /* SummerSchool */ = {
 			isa = PBXGroup;
 			children = (
+				65C41A5B2834C8C800AA888C /* Data */,
+				65C41A562834BE7900AA888C /* CustomObjects */,
+				65C41A4F2834BE2400AA888C /* Views */,
 				652C7275283484F600812BA4 /* SummerSchoolApp.swift */,
 				652C7277283484F600812BA4 /* ContentView.swift */,
+				652C72832834868E00812BA4 /* Model */,
 				652C7279283484FB00812BA4 /* Assets.xcassets */,
 				652C727B283484FB00812BA4 /* Preview Content */,
 			);
@@ -65,6 +87,43 @@
 				652C727C283484FB00812BA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		652C72832834868E00812BA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				652C7284283486A000812BA4 /* SchoolViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65C41A4F2834BE2400AA888C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65C41A522834BE4400AA888C /* MainView.swift */,
+				65C41A542834BE6400AA888C /* RegisterView.swift */,
+				65C41A592834C63400AA888C /* GroupDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65C41A562834BE7900AA888C /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				65C41A572834BE8A00AA888C /* CustomTextField.swift */,
+			);
+			path = CustomObjects;
+			sourceTree = "<group>";
+		};
+		65C41A5B2834C8C800AA888C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				65C41A5C2834C96A00AA888C /* Group.swift */,
+				65C41A5E2834C97E00AA888C /* Student.swift */,
+				65C41A602834C99200AA888C /* PostResponse.swift */,
+				65C41A622834C9AB00AA888C /* CompletionResult.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652C7285283486A000812BA4 /* SchoolViewModel.swift in Sources */,
+				65C41A552834BE6400AA888C /* RegisterView.swift in Sources */,
+				65C41A612834C99200AA888C /* PostResponse.swift in Sources */,
+				65C41A582834BE8A00AA888C /* CustomTextField.swift in Sources */,
+				65C41A5D2834C96A00AA888C /* Group.swift in Sources */,
+				65C41A5F2834C97E00AA888C /* Student.swift in Sources */,
+				65C41A632834C9AB00AA888C /* CompletionResult.swift in Sources */,
+				65C41A5A2834C63400AA888C /* GroupDetailView.swift in Sources */,
+				65C41A532834BE4400AA888C /* MainView.swift in Sources */,
 				652C7278283484F600812BA4 /* ContentView.swift in Sources */,
 				652C7276283484F600812BA4 /* SummerSchoolApp.swift in Sources */,
 			);
